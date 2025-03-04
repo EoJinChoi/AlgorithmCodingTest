@@ -1,7 +1,6 @@
 // 2025.03.04
 
 #include <iostream>
-#include <vector>
 using namespace std;
 
 int main()
