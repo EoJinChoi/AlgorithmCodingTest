@@ -6,6 +6,7 @@ using namespace std;
 
 void BFS();
 
+// A->B, A->C, B->A, B->C, C->A, C->B
 static int Sender[] = {0, 0, 1, 1, 2, 2};
 static int Receiver[] = {1, 2, 0, 2, 0, 1};
 static bool visited[201][201];
